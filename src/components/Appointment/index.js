@@ -53,13 +53,13 @@ export default function Appointment(props) {
       <Header time={props.time} />
       {/* {mode === EMPTY && <Empty onAdd={() => transition(CREATE)} />}
       {mode === SHOW && ( */}
-        <Show
+        {/* <Show
           student={props.interview.student}
           interviewer={props.interview.interviewer}
-          // onDelete={() => transition(CONFIRM)}
-          // onEdit={onEdit}
+          onDelete={() => transition(CONFIRM)}
+          onEdit={onEdit}
           id={props.id}
-        />
+        /> */}
       {/* )} */}
       {/* {mode === CREATE && <Form interviewers={props.interviewers} onSave={save} onCancel={() => transition(EMPTY)} />}
       {mode === EDIT && <Form interviewers={props.interviewers} interviewer={props.interview.interviewer.id} name={props.interview.student} onSave={save} onCancel={() => transition(SHOW)} />}
