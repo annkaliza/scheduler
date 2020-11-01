@@ -9,20 +9,19 @@ export function getAppointmentsForDay(state, day) {
   return allAppointments;
 }
 export function getInterview(state, interview) {
-  const interviewFound = {};
+  const foundInterview = {};
   if (interview) {
-    for (let interview in state.interviewers) {
-      if (state.interviewers[interview].id === interview.interviewer) {
-        interviewFound["student"] = interview.student;
-        interviewFound["interviewer"] = interview.interviewers[interviewer];
+    for (const interviewer in state.interviewers) {
+      if (state.interviewers[interviewer].id === interview.interviewer) {
+        foundInterview["student"] = interview.student;
+        foundInterview["interviewer"] = state.interviewers[interviewer];
       }
     }
   } else {
     return null;
   }
-  return interviewFound;
+  return foundInterview;
 }
-
 export function getInterviewersForDay(state, Day) {
   const days = state.days.find((dayId) => dayId.name === Day);
   if (!days) {

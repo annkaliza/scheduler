@@ -3,6 +3,7 @@ import "components/Appointment/styles.scss";
 import Header from "components/Appointment/Header";
 import Show from "components/Appointment/show";
 import Empty from "components/Appointment/Empty";
+import useVisualMode from "hooks/useVisualMode";
 import Form from "components/Appointment/Form";
 import Status from "./Status";
 import Confirm from "./Confirm";
