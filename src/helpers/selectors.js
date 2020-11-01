@@ -8,3 +8,16 @@ export function  getAppointmentsForDay(state, day) {
   );
   return allAppointments;
 }
+export function getInterview(state, interview){
+  const interviewFound = {};
+  if(interview){
+    for (let interview in state.interviewers){
+      if (state.interviewers[interview].id === interview.interviewer){
+        interviewFound["student"] = interview.student;
+        interviewFound["interviewer"] = interview.interviewers[interviewer];
+      }
+
+    }
+  }
+  return interviewFound;
+}
