@@ -43,9 +43,8 @@ npm run storybook
 
 ##  Final Products
 
-!["View appointment fro specific day "](./img/s1,png)
-!["Add new Appointment"](./img/s2add,png)
-!["Cancel Appointment"](./img/s3dele,png)
-## Author
+!["View appointment fro specific day "](https://github.com/annkaliza/scheduler/blob/master/img/s1.png)
+!["Add new Appointment"](https://github.com/annkaliza/scheduler/blob/master/img/s2add.png)
+!["Cancel Appointment"](https://github.com/annkaliza/scheduler/blob/master/img/s3dele.png)
 
 - [Anna Kaliza](https://github.com/annkaliza)
