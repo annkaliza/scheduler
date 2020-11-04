@@ -47,4 +47,6 @@ npm run storybook
 !["Add new Appointment"](https://github.com/annkaliza/scheduler/blob/master/img/s2add.png)
 !["Cancel Appointment"](https://github.com/annkaliza/scheduler/blob/master/img/s3dele.png)
 
+##  Author
+
 - [Anna Kaliza](https://github.com/annkaliza)
