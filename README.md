@@ -1,5 +1,7 @@
 # Interview Scheduler
 
+Scheduler is an apllication taht allows users to book, edit and camcel interview. It was built using React Js Library.
+
 ## Setup
 
 Install dependencies with `npm install`.
@@ -21,3 +23,26 @@ npm test
 ```sh
 npm run storybook
 ```
+
+##  Dependencies
+
+- react
+- react-dom
+- react-scripts
+- classnames
+- normalize.css
+- axios
+
+
+##  Getting Started
+
+- Install all dependencies using `npm install`
+- run npm start it will redirect to `localhost:800` make sure database is configure and backend is running
+- You can find backend [here](https://github.com/lighthouse-labs/scheduler-api) with instruction to setup Database
+
+
+##  Final Products
+
+## Author
+
+- [Anna Kaliza](https://github.com/annkaliza)
