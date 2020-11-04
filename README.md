@@ -43,6 +43,9 @@ npm run storybook
 
 ##  Final Products
 
+!["View appointment fro specific day "](./img/s1,png)
+!["Add new Appointment"](./img/s2add,png)
+!["Cancel Appointment"](./img/s3dele,png)
 ## Author
 
 - [Anna Kaliza](https://github.com/annkaliza)
