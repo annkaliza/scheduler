@@ -1,6 +1,6 @@
 # Interview Scheduler
 
-Scheduler is an apllication taht allows users to book, edit and camcel interview. It was built using React Js Library.
+Scheduler is an application that allows users to book, edit and cancel interview. It was built using React Js Library.
 
 ## Setup
 
